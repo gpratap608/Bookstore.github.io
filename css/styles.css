@@ -15,6 +15,7 @@ div{
     border-radius: 5px;
     border-style: inset;
     border-width: 1px;
+    display: flexbox;
 }
 button{
     background-color: #DEF5E5;
