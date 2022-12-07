@@ -1,5 +1,10 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body {
-    background-color: #00E7FF;
+    background-color: #EFF5F5;
 }
 footer {
     background-color : #A3C7D6; 
@@ -8,19 +13,16 @@ footer {
     text-align: center;
 }
 div{
-    background-color: #DEF5E5;
+    background-color: #D6E4E5;
     text-align: center;
-    margin-left: 300px;
-    margin-right: 300px;
     border-radius: 5px;
     border-style: inset;
     border-width: 1px;
-    display: flexbox;
-}
-button{
-    background-color: #DEF5E5;
-    border: none;
-    border-radius: 5px;
+    box-shadow: 20px 20px 20px #497174;
+    height: 90%;
+    width: 60%;
+    position: relative;
+    left:280px; 
 }
 hr{
     width: 10%;
@@ -28,15 +30,17 @@ hr{
     color: #294049;
     border-style: dotted none none;
     border-width: 5px;
+    position: relative;
+    left: 600px;
 }
 h1{
     font-family: inherit;
-    color: #C32BAD;
+    color: #497174;
     font-size: 50px;
 }
 h3{
     font-family: inherit;
-    color: #C32BAD;
+    color: #497174;
     font-size: 40px;
 }
 p{
@@ -48,16 +52,33 @@ label{
     font-size: 20px;
 }
 input{
+    height: 30px;
+    width: 80%;
     border: none;
     border-radius: 15px;
     margin-left: 2px ;
     text-align: start;
     outline-style: hidden ;
+    margin-top: 20px;
 }
 .logn{
-    width: 70%;
-    height: 20px;
-    background-color: #00E7FF;
+    width: 80%;
+    height: 30px;
+    background-color: #EB6440;
     text-align: center;
     margin-right: 200px;
+    margin-bottom: 20px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 5px; top: 5px;
+    font-size: 24px;
+}
+a :hover{
+    color: #9C254D;
+    transition:  color 1s;
+    
 }
