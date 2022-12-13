@@ -39,7 +39,7 @@ div{
     height: 90%;
     width: 60%;
     position: relative;
-    left: 20%;right: 25%; 
+    left: 20%; right:25%;
 }
 hr{
     width: 10%;
@@ -114,4 +114,7 @@ a:hover{
     color: #9C254D;
     transition:  color 0.25s;
 }
-
+input:focus{
+    width: 85%;
+    border-color: aqua;
+}
