@@ -118,3 +118,9 @@ input:focus{
     width: 85%;
     border-color: aqua;
 }
+.main-nav .search_bar{
+    margin-left: auto;
+    width: 30%;
+    margin-top: 5px;
+    text-indent: 2em; 
+}
