@@ -38,8 +38,8 @@ div{
     height: 90%;
     width: 60%;
     position: relative;
-    left: 20%; right:25%;
-    margin-top: 2%;
+    top: 2% ;left: 20%; right:25%;
+    
 }
 hr{
     width: 10%;
