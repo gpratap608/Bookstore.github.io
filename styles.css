@@ -39,6 +39,7 @@ div{
     width: 60%;
     position: relative;
     left: 20%; right:25%;
+    margin-top: 2%;
 }
 hr{
     width: 10%;
@@ -73,11 +74,10 @@ label{
 }
 input{
     height: 30px;
-    width: 20em;
+    width: 80%;
     border: none;
     border-radius: 15px;
     margin-left: 2px ;
-    text-align: start;
     outline-style: hidden ;
     margin-top: 20px;
 }
@@ -116,10 +116,15 @@ a:hover{
 input:focus{
     width: 85%;
     border-color: aqua;
+    outline: #A3C7D6;
 }
 .main-nav .search_bar{
     margin-left: auto;
     width: 30%;
     margin-top: 5px;
     text-indent: 2em; 
+}
+.dem{
+    margin-bottom: 0.5%;
+    background-color: #EB6440;
 }
