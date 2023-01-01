@@ -16,11 +16,13 @@ body {
 }
     
 .main-nav .navcon {
-    margin-right: 1%;
-    text-decoration: none;
-    margin-left: 1%;
-    margin-top: 0.3%;
+    
     font-size: 4%;
+    margin-right: 2% ;
+    text-decoration: none;
+    margin-left: 2%;
+    margin-top: 0.3rem;
+
 }
 footer {
     background-color : #A3C7D6; 
