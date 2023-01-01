@@ -10,16 +10,16 @@ body {
     display: flex;
     position: fixed;
     z-index: 2;
-    height: max-content;
+    height: 7%;
     width: 100%;
     background-color: #EB6440;
 }
     
 .main-nav .navcon {
-    margin-right: 5px;
+    margin-right: 2% ;
     text-decoration: none;
-    margin-left: 5px;
-    margin-top: 3px;
+    margin-left: 2%;
+    margin-top: 0.3rem;
 }
 footer {
     background-color : #A3C7D6; 
