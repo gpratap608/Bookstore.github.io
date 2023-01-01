@@ -10,16 +10,17 @@ body {
     display: flex;
     position: fixed;
     z-index: 2;
-    height: max-content;
+    height: 6%;
     width: 100%;
     background-color: #EB6440;
 }
     
 .main-nav .navcon {
-    margin-right: 5px;
+    margin-right: 1%;
     text-decoration: none;
-    margin-left: 5px;
-    margin-top: 3px;
+    margin-left: 1%;
+    margin-top: 0.3%;
+    font-size: 4%;
 }
 footer {
     background-color : #A3C7D6; 
@@ -121,7 +122,7 @@ input:focus{
 .main-nav .search_bar{
     margin-left: auto;
     width: 30%;
-    margin-top: 5px;
+    margin-top: 0.3%;
     text-indent: 2em; 
 }
 .dem{
